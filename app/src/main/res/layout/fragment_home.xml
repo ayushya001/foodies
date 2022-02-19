@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="138dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:paddingLeft="25dp"
+                        android:paddingRight="3dp"
+                        android:src="@drawable/r3" />
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:paddingLeft="28dp"
+                        android:src="@drawable/r2" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="205dp"
+                        android:layout_height="158dp"
+                        android:src="@drawable/o1" />
+
+                    <ImageView
+                        android:layout_width="185dp"
+                        android:layout_height="158dp"
+                        android:src="@drawable/o2" />
+                </LinearLayout>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="154dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="205dp"
+                        android:layout_height="158dp"
+                        android:src="@drawable/o3" />
+
+                    <ImageView
+                        android:layout_width="185dp"
+                        android:layout_height="158dp"
+                        android:src="@drawable/o1" />
+                </LinearLayout>
+            </ScrollView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="205dp"
+                        android:layout_height="158dp"
+                        android:src="@drawable/o5" />
+
+                    <ImageView
+                        android:layout_width="185dp"
+                        android:layout_height="158dp"
+                        android:src="@drawable/o6" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="205dp"
+                        android:layout_height="158dp"
+                        android:src="@drawable/o8" />
+
+                    <ImageView
+                        android:layout_width="185dp"
+                        android:layout_height="158dp"
+                        android:src="@drawable/o9" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="205dp"
+                        android:layout_height="158dp"
+                        android:src="@drawable/ot" />
+
+                    <ImageView
+                        android:layout_width="185dp"
+                        android:layout_height="158dp"
+                        android:src="@drawable/o1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="205dp"
+                        android:layout_height="158dp"
+                        android:src="@drawable/o5" />
+
+                    <ImageView
+                        android:layout_width="185dp"
+                        android:layout_height="158dp"
+                        android:src="@drawable/ot" />
+                </LinearLayout>
+
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                    android:paddingBottom="30dp"
+                android:orientation="horizontal">
+
+                    <ImageView
+                    android:layout_width="205dp"
+                    android:layout_height="158dp"
+                    android:src="@drawable/o2" />
+
+                   <ImageView
+                    android:layout_width="185dp"
+                    android:layout_height="158dp"
+                    android:src="@drawable/o1" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/foodies/app/src/main/res/layout/a.xml" value="0.25416666666666665" />
+        <entry key="..\:/foodies/app/src/main/res/layout/activity_forget_password.xml" value="0.21981981981981982" />
+        <entry key="..\:/foodies/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/foodies/app/src/main/res/layout/activity_main2.xml" value="0.25416666666666665" />
+        <entry key="..\:/foodies/app/src/main/res/layout/activity_main3.xml" value="0.25416666666666665" />
+        <entry key="..\:/foodies/app/src/main/res/layout/activity_main4.xml" value="0.21981981981981982" />
+        <entry key="..\:/foodies/app/src/main/res/layout/fragment_dashboard.xml" value="0.21981981981981982" />
+        <entry key="..\:/foodies/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/foodies/app/src/main/res/layout/fragment_notifications.xml" value="0.21981981981981982" />
+        <entry key="..\:/foodies/app/src/main/res/layout/my_ayush_layout.xml" value="0.22592592592592592" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
